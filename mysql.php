@@ -28,7 +28,7 @@ header('Content-type: text/html');
     $idok=$idok+1;
     if(!isset($_POST['Nombre'])){echo "vacia";}else{
     $query = "INSERT INTO mantenimiento VALUES ('";
-    $query.= $idok;                                     // ojo, este es el nuevo !!!! 
+    $query.= $idok;                                     // ojo, este es el nuevo !!!
     $query.="','";
     $query.= utf8_encode($_POST['Nombre']);
     $query.="','";
