@@ -360,6 +360,8 @@ echo ' </h1></p><form action="https://tururu.appspot.com" method="post" enctype=
                 <input type="reset" value="Borrar">
 		<input type="image" name="derecha" src="http://mant.iesdellanes.org/formulario/flechaderecha.png" alt="derecha">
 		<input type="image" name="izquierda" src="http://mant.iesdellanes.org/formulario/flechaizquierda.png" alt="izqierda">
+		if(isset($pablo['Id']){echo'</p>Incidencia:'.$pablo['Id'].'</p>;}else{<'/p>ERROR!!!,No existe esa incidencia ó ha llegado de la tabla</p>';};
+		
               </p>
  </form>
  
